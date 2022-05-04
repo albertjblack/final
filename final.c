@@ -97,7 +97,7 @@ void printStats(player player, int year){
 
 // Main entry point for the c program
 int main(){
-    
+
     // Say hi to the user
     printf("Welcome to the 2018-2021 Stats Program!\n");
     char playing = 'y';
@@ -125,5 +125,6 @@ int main(){
         scanf(" %c", &playing);
 
     }
+
     return 0;
 }
